@@ -1,0 +1,405 @@
+#shop {
+    background-image: url(../img/Shop-Hero.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    width: 100%;
+}
+.shop_inner_contant {
+    padding-top: 132px;
+    padding-bottom: 178px;
+}
+#shop h2 {
+    text-align: center;
+    font-size: 59px;
+    font-weight: 700;
+    color: #271d1d;
+    font-family: 'Lexend', sans-serif;
+}
+#shop p {
+    text-align: center;
+    font-size: 21px;
+    color: #27231d;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+.s_button_box {
+    display: flex;
+}
+.s_button {
+    text-decoration: none;
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #363436;
+    padding: 11px 30px 11px 30px;
+    background: #ffffff;
+    border: 1px solid #000;
+    border-radius: 6px 6px 6px 6px;
+    margin: 0 auto;
+    transition-duration: 0.5s;
+}
+.s_button:hover{
+    background: #ffffff;
+    transform: translateY(-8px);
+    color: #363436;
+}
+#item {
+    padding: 33px 5px;
+    overflow: hidden;
+}
+.shop_row {
+    width: 100%;
+}
+.shop_col {
+    
+}
+ul.shop_ul {
+    --columns: 3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    list-style: none;
+}
+li.shop_li {
+    position: relative;
+    min-height: 1px;
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    width: 100% !important;
+    float: none !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc( 100% / var(--columns));
+    flex: 0 0 calc( 100% / var(--columns));
+    max-width: calc( 100% / var(--columns));
+}
+.shop_box {
+    padding: 9px;
+    margin: 24px;
+}
+.shop_box a {
+    text-decoration: none;
+}
+.shop_img {
+    border-radius: 15px;
+}
+.shop_heading {
+    font-family: "Lexend", Sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 33px;
+    color: #363436;
+    margin-top: 25px;
+    margin-bottom: 33px;
+}
+.shop_description {
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    line-height: 25.2px;
+    color: #54595f;
+}
+.bottom_box {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 27px;
+    margin-bottom: 12px;
+}
+.price_info {
+    float: left;
+    font-family: "Lexend", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #212529;
+    text-align: left;
+}
+span.gst {
+    color: #271d1d;
+    font-family: "Inter", Sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.view_product_btn {
+    float: right;
+    text-decoration: none;
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #363436;
+    color: #fcfcfc;
+    padding: 10px 34px 10px 34px;
+    border-radius: 4px 4px 4px 4px;
+}
+.view_product_btn:hover {
+    color: #fcfcfc;
+}
+#Shopfeatur {
+    padding: 0 17px;
+}
+#Shopfeatur .owl-nav {
+    display: none;
+}
+#Shopfeatur .owl-dots {
+    margin-top: 45px;
+    margin-bottom: 29px;
+}
+.featur_heading {
+    text-align: center;
+    font-size: 41px;
+    font-weight: 600;
+    color: #363436;
+    font-family: 'Lexend', sans-serif;
+    padding-top: 59px;
+    padding-bottom: 8px;
+}
+.featur_description {
+    text-align: center;
+    font-size: 16px;
+    color: #27231d;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+}
+.shop_carosal_box {
+    margin-top: 29px;
+}
+.shop_project_box {
+    border-radius: 7px;
+    transition-duration: 0.3s;
+}
+.shop_project_box:hover {
+    transform: scale(1.01, 1.01);
+}
+.shop_project_box img{
+    border-radius: 7px 7px 0px 0px;
+}
+.feature_inner_content {
+    background: #f3f9fe;
+    padding: 11px;
+    border-radius: 0px 0px 7px 7px;
+}
+.pr_heading {
+    font-family: "Lexend", Sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    color: #271d1d;
+}
+.pr_desc {
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    color: #363436;
+}
+.pr_line {
+    color: #2c2c2c59;
+    margin: 15px 0;
+}
+.fund_heading {
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #363436;
+}
+.fund_ammount {
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: #363436;
+}
+span.a {
+
+}
+span.b {
+    font-weight: 400;
+}
+.fund_btn_box_in {
+    display: flex;
+    padding: 2px 0 10px 0;
+}
+a.fund_btn_in {
+    text-decoration: none!important;
+    text-align: center;
+    padding: 6px 7px 6px 7px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 3px 3px 3px 3px;
+    flex-basis: 100%;
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Inter", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #484d52;
+}
+/* official */
+#official {
+    background-image: url(../img/Happy-kids.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    padding: 80px 300px 80px 300px;
+}
+.official_inner {
+    background: #ffffff;
+    text-align: center;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 50px 50px 50px 50px;
+}
+.h_link {
+    text-decoration: none;
+}
+p.official_heading {
+    text-align: center;
+    font-size: 27px;
+    line-height: 29px;
+    color: #363436;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+/* p.official_heading:hover {
+    font-size: 26px;
+    font-weight: 500;
+} */
+.official_descriotion {
+    text-align: center;
+    font-size: 16px;
+    line-height: 25px;
+    color: #363436;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    margin: 21px 44px 29px 44px;
+}
+.official_link {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7a7a7a;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+.official_link:hover {
+    color: #7a7a7a;
+}
+
+@media screen and (max-width: 768px) {
+    #item {
+        padding: 33px 27px 33px 0;
+        overflow: hidden;
+    }
+    ul.shop_ul {
+        --columns: 2;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        list-style: none;
+    }
+    .shop_heading {
+        font-family: "Lexend", Sans-serif;
+        font-size: 22px;
+        font-weight: 600;
+        text-decoration: none;
+        line-height: 33px;
+        color: #363436;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .view_product_btn {
+        float: right;
+        text-decoration: none;
+        font-family: "Inter", Sans-serif;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+        background-color: #363436;
+        color: #fcfcfc;
+        padding: 8px 30px 8px 30px;
+        border-radius: 4px 4px 4px 4px;
+    }
+    #official {
+        background-image: url(../img/Happy-kids.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        padding: 50px 100px 50px 100px;
+    }
+}
+@media screen and (max-width: 425px) {
+    ul.shop_ul {
+        --columns: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-left: -15px;
+        margin-right: -15px;
+        list-style: none;
+    }
+    .shop_box {
+        padding: 0;
+        margin: 0 0 40px 0;
+    }
+    #Shopfeatur {
+        padding: 0 17px;
+        margin-top: -67px;
+    }
+    #official {
+        background-image: url(../img/Happy-kids.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: 100px;
+        margin-bottom: 0px;
+        padding: 40px 40px 40px 40px;
+    }
+    p.official_heading {
+        text-align: center;
+        font-size: 23px;
+        line-height: 29px;
+        color: #363436;
+        font-weight: 700;
+        font-family: 'Inter', sans-serif;
+    }
+    .official_descriotion {
+        text-align: center;
+        font-size: 14px;
+        line-height: 25px;
+        color: #363436;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        margin: 21px 0 13px 0;
+    }
+    .official_inner {
+        background: #ffffff;
+        text-align: center;
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        padding: 20px 20px 20px 20px;
+    }
+    .official_link {
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+        color: #433443;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+    }
+}

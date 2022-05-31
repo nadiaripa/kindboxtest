@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- font family -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Kumbh+Sans:wght@700&family=Lexend:wght@100;700&family=Nunito+Sans:wght@300;600&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&family=Lexend:wght@100;700&family=Nunito+Sans:wght@300;600&display=swap"
+        rel="stylesheet">
+    <!-- carosal css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
+    integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+    crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function(){
+          $(".bar_toggle").click(function(){
+              $("#sideNave").addClass("sideNave_show");
+          });
+          $(".close_box").click(function(){
+              $("#sideNave").removeClass("sideNave_show");
+          });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <div class="logo_box">
+            <a href="index.html" class="logo_link">
+                <img src="img/kindbox-logo-black.png.webp" alt="" class="logo_img">
+            </a>
+        </div>
+        <div class="manu_box">
+            <ul class="level1">
+                <li><a class="anchor_level1" href="project.html">View Projects</a></li>
+                <li><a class="anchor_level1" href="project.html">Donate</a></li>
+                <li><a class="anchor_level1" href="shop.html">shop</a></li>
+                <li class="parent_li"><a class="anchor_level1" href="#">About <span
+                    class="indicator"><i class="fas fa-chevron-down"></i></span></a>
+                    <ul class="level2">
+                        <li><a class="sub_link" href="our-why.html">Our Why</a></li>
+                        <li><a class="sub_link" href="giving-back.html">Giving Back</a></li>
+                        <li><a class="sub_link" href="team.html">Team</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="user_function_box">
+            <ul class="icon_menu">
+                <li class="icon_li"><a href="#" class="icon_link"><i aria-hidden="true"
+                            class="fas fa-search"></i></a></li>
+                <li class="icon_li"><a href="#" class="icon_link"><i aria-hidden="true" class="far fa-user"></i></a>
+                </li>
+                <li class="icon_li"><a href="#" class="icon_link"><span class="cart_amount">$0.00</i><span
+                                class="quantity">0</span></span><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+            
+        </div>
+    </header>
+    <header id="mob_header">
+        <div class="logo_box">
+            <a href="index.html" class="logo_link">
+                <img src="img/kindbox-logo-black.png.webp" alt="" class="logo_img">
+            </a>
+        </div>
+        <div class="manu_box">
+            <div class="bar_toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+        </div>
+        <div class="user_function_box">
+            <ul class="icon_menu">
+                <li class="icon_li"><a href="#" class="icon_link"><i aria-hidden="true"
+                            class="fas fa-search"></i></a></li>
+                <li class="icon_li"><a href="#" class="icon_link"><i aria-hidden="true" class="far fa-user"></i></a>
+                </li>
+                <li class="icon_li"><a href="#" class="icon_link"><span class="cart_amount"></i><span
+                                class="quantity">0</span></span><i class="fas fa-shopping-cart"></i></a></li>
+            </ul>
+            
+        </div>
+    </header>
+    <div id="sideNave">
+        <div class="close_box">
+            <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul class="level1">
+            <li><a class="anchor_level1" href="project.html">View Projects</a></li>
+            <li><a class="anchor_level1" href="project.html">Donate</a></li>
+            <li><a class="anchor_level1" href="shop.html">shop</a></li>
+            <li class="parent_li"><a class="anchor_level1" href="#">About <span
+                class="indicator"><i class="fas fa-chevron-down"></i></span></a>
+                <ul class="level2">
+                    <li><a class="sub_link" href="our-why.html">Our Why</a></li>
+                    <li><a class="sub_link" href="giving-back.html">Giving Back</a></li>
+                    <li><a class="sub_link" href="team.html">Team</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <section id="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="inner_contant">
+                        <h2>Shop For a Cause</h2>
+                        <p>A shopping experience for those who care about changing the world.</p>
+                        <div class="btn_box">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-12">
+                                    <a class="k_button" href="#">Find a Project</a>
+                                </div>
+                                <div class="col-md-6 col-sm-12">
+                                    <a class="k_button_two" href="#">Shop Products</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="work">
+        <div class="container">
+            <div class="work_inner">
+                <div class="work_head">
+                    <h2>How it works</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="work_box">
+                            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                            <h4 class="work_heading">Shop</h4>
+                            <p class="work_description">Buy everyday products with the world in mind</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="work_box">
+                            <i aria-hidden="true" class="far fa-chart-bar"></i>
+                            <h4 class="work_heading">Fund</h4>
+                            <p class="work_description">Direct profits from your purchase to projects that matter to you
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="work_box">
+                            <i aria-hidden="true" class="fas fa-rocket"></i>
+                            <h4 class="work_heading">Change</h4>
+                            <p class="work_description">Improve the world, every time you shop</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="work_box">
+                            <i aria-hidden="true" class="fas fa-bell"></i>
+                            <h4 class="work_heading">Follow</h4>
+                            <p class="work_description">See the world change before your very eyes</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="featur">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2 class="featur_heading">Featured Projects</h2>
+                    <p class="featur_description">Find a project that interests you and start shopping to support it.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="carosal_box">
+                        <div class="owl-carousel owl-theme">
+                            <div class="project_box">
+                                <img src="img/Untitled-300-×-100-px-600-×-400-px4.jpg" alt="" class="img-fluid pr_img">
+                                <div class="feature_inner_content">
+                                    <h3 class="pr_heading"> St Bridget’s Primary School in Greythorn
+                                        are Building a Library in Rawalpindi, Pakistan</h3>
+                                    <p class="pr_desc">There is a school in Pakistan
+                                        that needs your help. Can you bring a library to
+                                        their community?</p>
+                                    <hr class="pr_line">
+                                    <h3 class="fund_heading">Funds Raised</h3>
+                                    <p class="fund_ammount">
+                                        <span class="a">$130.95</span>
+                                        <span class="b">raised of</span>
+                                        <span class="a">$10,000.00</span>
+                                    </p>
+                                    <div class="fund_btn_box_in">
+                                        <a href="#" class="fund_btn_in">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item -->
+                            <div class="project_box">
+                                <img src="img/Untitled-300-×-100-px-600-×-400-px5.jpg" alt="" class="img-fluid pr_img">
+                                <div class="feature_inner_content">
+                                    <h3 class="pr_heading">St Paul’s Primary School in Monbulk are Building a Library in
+                                        Tramri, Pakistan</h3>
+                                    <p class="pr_desc">There is a school in Pakistan
+                                        that needs your help. Can you bring a library to
+                                        their community?</p>
+                                    <hr class="pr_line">
+                                    <h3 class="fund_heading">Funds Raised</h3>
+                                    <p class="fund_ammount">
+                                        <span class="a">$130.95</span>
+                                        <span class="b">raised of</span>
+                                        <span class="a">$10,000.00</span>
+                                    </p>
+                                    <div class="fund_btn_box_in">
+                                        <a href="#" class="fund_btn_in">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item -->
+                            <div class="project_box">
+                                <img src="img/Build-a-Library-in-Nuwako-Nepal-1-768x576.jpg" alt=""
+                                    class="img-fluid pr_img">
+                                <div class="feature_inner_content">
+                                    <h3 class="pr_heading">Billanook Primary School in Montrose are Building a Library
+                                        in Nuwakot, Nepal</h3>
+                                    <p class="pr_desc">St Mary’s Primary School in Greensborough
+                                        are Building a Library in Nagjangud, India</p>
+                                    <hr class="pr_line">
+                                    <h3 class="fund_heading">Funds Raised</h3>
+                                    <p class="fund_ammount">
+                                        <span class="a">$130.95</span>
+                                        <span class="b">raised of</span>
+                                        <span class="a">$10,000.00</span>
+                                    </p>
+                                    <div class="fund_btn_box_in">
+                                        <a href="#" class="fund_btn_in">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item -->
+                            <div class="project_box">
+                                <img src="img/Untitled-300-×-100-px-600-×-400-px6.jpg" alt="" class="img-fluid pr_img">
+                                <div class="feature_inner_content">
+                                    <h3 class="pr_heading">Billanook Primary School in Montrose are Building a Library
+                                        in Nuwakot, Nepal</h3>
+                                    <p class="pr_desc">There is a school in Pakistan
+                                        that needs your help. Can you bring a library to
+                                        their community?</p>
+                                    <hr class="pr_line">
+                                    <h3 class="fund_heading">Funds Raised</h3>
+                                    <p class="fund_ammount">
+                                        <span class="a">$130.95</span>
+                                        <span class="b">raised of</span>
+                                        <span class="a">$10,000.00</span>
+                                    </p>
+                                    <div class="fund_btn_box_in">
+                                        <a href="#" class="fund_btn_in">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item -->
+                            <div class="project_box">
+                                <img src="img/Untitled-300-×-100-px-600-×-400-px.jpg" alt="" class="img-fluid pr_img">
+                                <div class="feature_inner_content">
+                                    <h3 class="pr_heading">St Philip’s Primary School in Blackburn are Building a
+                                        Library in Darjeeling, India</h3>
+                                    <p class="pr_desc">There is a school in Nepal that needs your help. Can you bring a
+                                        library to their community?</p>
+                                    <hr class="pr_line">
+                                    <h3 class="fund_heading">Funds Raised</h3>
+                                    <p class="fund_ammount">
+                                        <span class="a">$130.95</span>
+                                        <span class="b">raised of</span>
+                                        <span class="a">$10,000.00</span>
+                                    </p>
+                                    <div class="fund_btn_box_in">
+                                        <a href="#" class="fund_btn_in">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item -->
+                            <div class="project_box">
+                                <img src="img/Untitled-300-×-100-px-600-×-400-px2.jpg" alt="" class="img-fluid pr_img">
+                                <div class="feature_inner_content">
+                                    <h3 class="pr_heading">St Brigid’s Primary School in Gisborne are Building a Library
+                                        in Thimi, Nepal</h3>
+                                    <p class="pr_desc">There is a school in Nepal that needs your help. Can you bring a
+                                        library to their community?</p>
+                                    <hr class="pr_line">
+                                    <h3 class="fund_heading">Funds Raised</h3>
+                                    <p class="fund_ammount">
+                                        <span class="a">$130.95</span>
+                                        <span class="b">raised of</span>
+                                        <span class="a">$10,000.00</span>
+                                    </p>
+                                    <div class="fund_btn_box_in">
+                                        <a href="#" class="fund_btn_in">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /.item -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <div class="f_btn_box">
+                        <a class="f_button" href="#">See More</a>
+                    </div>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </div>
+    </section>
+    <section id="product">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="product_sub_heading">Shop With Kindness</p>
+                    <h2 class="product_heading">Every Product is Here For a Reason</h2>
+                    <p class="product_description">Find a project that interests you and start shopping to support it.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="product_carosal_box">
+            <div class="owl-carousel owl-theme">
+                <div class="product_single_item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pr_img">
+                                    <a href="#"><img
+                                            src="img/PAPER_TOWEL_3_3x_a1030080-5af0-42aa-84b4-8d8c81489a1e-600x600.jpeg"
+                                            alt="" class="prd_img"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pr_content">
+                                    <h2 class="pr_slider_heading">Who Gives a Crap - Forest Friendly Paper Towels</h2>
+                                    <p class="pr_slider_description">Why the bamboo blend?
+                                        We use a blend of bamboo and sugarcane (bagasse) to
+                                        make our 2 ply rolls extra strong and absorbent.
+                                        Bagasse is a byproduct of sugarcane processing and
+                                        is considered to be “waste”. Rather than burning
+                                        or burying the bagasse (which is often the case),
+                                        we’ve chosen to up...</p>
+                                    <a href="#" class="pr_slider_btn">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="product_single_item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pr_img">
+                                    <a href="#"><img
+                                            src="img/REC_TP_4_3x_40198e95-cf9b-4b18-a74c-6a5a6a6452fc_2400x2400-600x600.jpeg"
+                                            alt="" class="prd_img"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pr_content">
+                                    <h2 class="pr_slider_heading">Who Gives a Crap - 100% Recycled Toilet Paper</h2>
+                                    <p class="pr_slider_description">Bamboo Toilet Paper How does it feel? Our toilet
+                                        paper might
+                                        feel a bit different since, well, it is a bit different. Unlike most
+                                        blanket-like mainstream TP,
+                                        these rolls aren’t made with trees. They’re soft and strong like supermarket
+                                        brands, but feel
+                                        much better on your conscience. Why Bamb...</p>
+                                    <a href="#" class="pr_slider_btn">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="product_single_item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pr_img">
+                                    <a href="#"><img
+                                            src="img/BAM_TP_4_3x_f0421278-ae49-4515-9f88-33e79db3431f_2400x2400-600x600.jpeg"
+                                            alt="" class="prd_img"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pr_content">
+                                    <h2 class="pr_slider_heading">Who Gives a Crap - Premium 100% Bamboo Toilet Paper
+                                    </h2>
+                                    <p class="pr_slider_description">Bamboo Toilet Paper How does it feel? Our toilet
+                                        paper
+                                        might feel a bit different since, well, it is a bit different. Unlike most
+                                        blanket-like mainstream TP, these rolls aren’t made with trees. They’re soft
+                                        and strong like supermarket brands, but feel much better on your conscience. Why
+                                        Bamb...</p>
+                                    <a href="#" class="pr_slider_btn">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="product_single_item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pr_img">
+                                    <a href="#"><img
+                                            src="img/hand-Wash-Refill-Sachets-2-Sachet-Equates-to-600-Pumps-30-600x600.png"
+                                            alt="" class="prd_img"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pr_content">
+                                    <h2 class="pr_slider_heading">Ecoegg Laundry Egg 70 Washes Spring Blossom</h2>
+                                    <p class="pr_slider_description">Ecoegg Laundry Egg Refill Pellets, 50
+                                        Washes with a Spring Blossom Scent Contains: 2 bags of white mineral
+                                        pellets, 1 bag of tourmaline pellets. These pellets are used to fill
+                                        your ecoegg and allow enough for 50 washes. The pellets do not include
+                                        an ecoegg. What is a laundry egg? The ecoegg Lau...</p>
+                                    <a href="#" class="pr_slider_btn">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="product_single_item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pr_img">
+                                    <a href="#"><img
+                                            src="img/Urban-Greens-Mini-Garden-Sunflower-Sprouts-White-Box-13-600x600.jpg"
+                                            alt="" class="prd_img"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pr_content">
+                                    <h2 class="pr_slider_heading">Ecoegg Laundry Egg 70 Washes Spring Blossom</h2>
+                                    <p class="pr_slider_description">This Urban Greens Grow Kit contains everything you
+                                        need
+                                        to grow your own mini sprout garden. Sunflower sprouts have a nutty flavour with
+                                        a
+                                        crunchy bite. They are also delicious with salad, sandwiches and smoothies. High
+                                        in protein, Vitamin B and zinc. The kit includes A beautiful porcelain window...
+                                    </p>
+                                    <a href="#" class="pr_slider_btn">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+                <div class="product_single_item">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pr_img">
+                                    <a href="#"><img
+                                            src="img/2-hand-Wash-Refill-Sachets-2-Sachet-Equates-to-600-Pumps-30.png"
+                                            alt="" class="prd_img"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pr_content">
+                                    <h2 class="pr_slider_heading">2 Hand Wash Refill Sachets (2 Sachet Equates to 600+
+                                        Pumps)</h2>
+                                    <p class="pr_slider_description">This Australian bush scents of bush berries +
+                                        applewood hand wash
+                                        Kit comes with 2 compostable hands wash powder sachets. 15g sachet equates to
+                                        300 pumps.
+                                        All ingredients are locally sourced and made in Australia. You can compost this
+                                        sachet
+                                        by simply chucking it into (inside of the soil) in one ...</p>
+                                    <a href="#" class="pr_slider_btn">View Product</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.item -->
+            </div>
+        </div>
+
+    </section>
+    <footer id="footer">
+        <div class="footer_row">
+            <div class="custom_col_one">
+                <h2 class="form_heading">Stay connected</h2>
+                <p class="form_description">Keep up to date with with
+                    products and projects we are supporting.</p>
+                <div class="form_box">
+                    <div class="name_box">
+                        <input placeholder="Your Name" type="text" id="fname" name="fname">
+                    </div>
+                    <div class="email_box">
+                        <input placeholder="Your Email Address" type="email" id="email" name="email">
+                    </div>
+                    <div class="submit_box">
+                        <input type="submit">
+                    </div>
+                    <div class="flag_box">
+                        <img class="fl" src="img/flag.png" alt="">
+                        <p class="txt">Australia</p>
+                    </div>
+                </div>
+            </div>
+            <div class="custom_col_two">
+                <h4 class="f_heading">About</h4>
+                <ul class="f_menu">
+                    <li><a href="#" class="f_link">Our Why</a></li>
+                    <li><a href="#" class="f_link">Giving Back</a></li>
+                    <li><a href="#" class="f_link">Team</a></li>
+                    <li><a href="#" class="f_link">FAQs</a></li>
+                    <li><a href="#" class="f_link">Shipping</a></li>
+                </ul>
+            </div>
+            <div class="custom_col_three">
+                <h4 class="f_heading">Shop</h4>
+                <ul class="f_menu">
+                    <li><a href="#" class="f_link">Shop</a></li>
+                    <li><a href="#" class="f_link">Projects</a></li>
+                    <li><a href="#" class="f_link">Contact</a></li>
+                    <li><a href="#" class="f_link">Website Issues</a></li>
+                </ul>
+            </div>
+            <div class="custom_col_four">
+                <h4 class="f_heading">#kindboxofficial</h4>
+                <a href="#" class="social_link">
+                    <i aria-hidden="true" class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <section id="bottom">
+        <div class="bottom_row">
+            <div class="bottom_col_one">
+                <ul class="bottom_menu">
+                    <li class="bottom_li"><a href="#" class="bottom_link">Disclaimer</a></li>
+                    <li class="bottom_li"><a href="#" class="bottom_link">Privacy Policy</a></li>
+                    <li class="bottom_li"><a href="#" class="bottom_link">Terms and Conditions</a></li>
+                    <li class="bottom_li"><a href="#" class="bottom_link">FAQ</a></li>
+                    <li class="bottom_li"><a href="#" class="bottom_link">Website Issues</a></li>
+                </ul>
+            </div>
+            <div class="bottom_col_two">
+                <span class="copyright">Copyright 2022, Kindbox Inc. All rights reserved.</span>
+            </div>
+            <div class="bottom_col_three">
+                <ul class="payment">
+                    <li class="payment_li">
+                        <a href="#" class="payment_link"><i aria-hidden="true" class="fab fa-apple-pay"></i></a>
+                    </li>
+                    <li class="payment_li">
+                        <a href="#" class="payment_link"><i aria-hidden="true" class="fab fa-google-pay"></i></a>
+                    </li>
+                    <li class="payment_li">
+                        <a href="#" class="payment_link"><i aria-hidden="true" class="fab fa-cc-mastercard"></i></a>
+                    </li>
+                    <li class="payment_li">
+                        <a href="#" class="payment_link"><i aria-hidden="true" class="fab fa-cc-visa"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.carosal_box .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                items: 3,
+                nav: true,
+                autoplay: true,
+                autoplayTimeout: 2500,
+                responsive: {
+                    0: {
+                        items:1,
+                        nav: false,
+                    },
+                    768: {
+                        items:2,
+                        nav: true,
+                    },
+                    1080: {
+                        items:3,
+                        nav:true,
+                    },
+                }
+            });
+            $('.product_carosal_box .owl-carousel').owlCarousel({
+                loop: true,
+                margin: 20,
+                items: 1,
+                nav: true,
+                autoplay: false,
+                autoplayTimeout: 2500,
+            });
+        });
+    </script>
+</body>
+</html>
