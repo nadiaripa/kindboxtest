@@ -176,6 +176,9 @@
     padding: 11px;
     border-radius: 0px 0px 7px 7px;
 }
+.feature_inner_content a {
+    text-decoration: none;
+}
 .pr_heading {
     font-family: "Lexend", Sans-serif;
     font-size: 17px;
