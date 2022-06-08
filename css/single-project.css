@@ -1,0 +1,785 @@
+#SinglProject {
+    background-image: url(../img/SinglProject.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.SinglProject_overlay {
+    background: rgb(8, 4, 4,0.49);
+    padding: 36px 72px 40px 72px;
+}
+.SinglProject_inner_contant {
+    padding-top: 89px;
+    padding-bottom: 109px;
+}
+h4.SinglProject_up_heading {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#SinglProject h2 {
+    text-align: center;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 63px;
+    color: #ffffff;
+    font-family: 'Lexend', sans-serif;
+    padding-top: 27px;
+    padding-bottom: 14px;
+}
+#SinglProject p {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+#SinglProject p span i {
+    color: #ffffff;
+    font-size: 22px;
+}
+#detail {
+    padding: 36px 68px 40px 68px;
+}
+.detail_row {
+    width: 100%;
+    overflow: hidden;
+}
+.detail_col_one {
+    width: 59.646%;
+    float: left;
+    padding: 15px;
+}
+.detail_col_two {
+    width: 39.686%;
+    float: left;
+    padding: 15px;
+}
+.detail_heading {
+    color: #373B3F;
+    font-family: "Lexend", Sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    padding-bottom: 14px;
+}
+.percent_heading {
+    color: #271d1d;
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.percent_cover {
+
+}
+.crowdfunding_progressbar {
+    background-color: #f1f1f1!important;
+    height: 12px;
+    border-radius: 16px;
+}
+.crowdfunding_bar {
+    background-color: #000000!important;
+    height: 12px;
+    border-radius: 16px;
+    width: 38.76%;
+}
+.percent_description {
+    color: #54595f;
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
+    text-align: left;
+}
+.school_info_box {
+    width: 100%;
+    overflow: hidden;
+}
+.school_info_col {
+    width: 50%;
+    float: left;
+}
+.school_heading {
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #363436;
+}
+.school_description {
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #080404;
+}
+.detail_img {
+    padding-bottom: 20px;
+}
+.project_detail_box {
+    padding: 12px 12px 12px 12px;
+    background: #F9FAFB;
+    height: 100%;
+    overflow: hidden;
+}
+.project_detail_heading {
+    color: #373B3F;
+    font-family: "Lexend", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.video_box iframe{
+    margin-top: -114px;
+    margin-bottom: -112px;
+}
+.gallary_section  {
+    width: 100%;
+}
+.gallary_box {
+    width: 50%;
+    float: left;
+}
+.gallary_img {
+    padding: 6px;
+}
+.gallary_img:hover {
+    filter: brightness(50%);
+}
+.heading_space {
+    padding-top: 10px;
+}
+.project_detail_description {
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 38px 0px 0px;
+}
+.amount_info_box {
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 11px;
+    padding-bottom: 157px;
+}
+.amount_info_inner {
+    width: 46%;
+    margin-left: 2%;
+    float: left;
+    padding-top: 30px;
+    background-color: #fff;
+    padding-bottom: 30px;
+}
+.amount_info_heading {
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #363436;
+    text-align: center;
+}
+.amount_info_description {
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #080404;
+    text-align: center;
+}
+.detail_middle_box {
+
+}
+.donation_single_button_box {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow: hidden;
+    padding: 10px 0px;
+}
+.amount_btn {
+    width: 29%;
+    float: left;
+    text-align: center;
+    margin: 0 2%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #373B3F;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    padding: 6px;
+    text-decoration: none;
+    border: 1px solid #AAA8A4;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+}
+.amount_btn:hover {
+    background-color: #EFEFEF;
+    transform: translateY(-3px);
+}
+.donation_action {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 9px;
+    overflow: hidden;
+}
+input.counter {
+    width: 47.5%;
+    float: left;
+    font-family: 'Inter' !important;
+    font-weight: 500 !important;
+    text-transform: uppercase !important;
+    text-align: center;
+    background-color: #ffffff !important;
+    border-radius: 5px !important;
+    color: #373B3F !important;
+    font-size: 16px;
+    padding: 6px !important;
+    text-decoration: none;
+    border: 1px solid #AAA8A4 !important;
+    line-height: inherit;
+}
+.donate_btn {
+    width: 47.5%;
+    float: right;
+    background-color: #eea8b2!important;
+    text-align: center;
+    border-radius: 5px;
+    color: #373B3F;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 18px;
+    padding: 6px;
+    text-decoration: none;
+    border: 1px solid #363436;
+    letter-spacing: 1px;
+    transition-duration: 0.2s;
+}
+.donate_btn:hover {
+    background-color: #EFEFEF;
+    transform: translateY(-3px);
+}
+.project_shop_btn_box {
+    width: 100%;
+    padding: 4px 9px 0 9px;
+}
+.project_shop_btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: "Inter", Sans-serif;
+    font-weight: 500;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #363436;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 16px;
+    padding: 10px 30px;
+    transition-duration: 0.2s;
+}
+.project_shop_btn:hover {
+    transform: translateY(-3px);
+    color: #ffffff;
+}
+.organiser_link_box {
+    display: flex;
+    justify-content: center;
+    padding-top: 22px;
+    padding-bottom: 23px;
+}
+a.organiser_link {
+    text-decoration: underline;
+    font-family: "Inter", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #363436;
+    text-align: center;
+}
+#organiser {
+    background: #F5F0E2;
+    padding: 65px 125px 50px 125px;
+}
+.organiser_head {
+    padding-bottom: 16px;
+}
+.organiser_heading {
+    font-family: "Lexend", Sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: #363436;
+    text-align: center;
+}
+.organiser_body {
+    width: 100%;
+    overflow: hidden;
+}
+.organiser_body_col_one {
+    width: 58.45%;
+    float: left;
+    padding: 25px;
+}
+.organiser_body_col_two {
+    width: 41.445%;
+    float: left;
+    padding: 25px;
+}
+.organiser_img {
+    border-radius: 7px 7px 0 0;
+}
+.middle_align_box {
+    padding-top: 58px;
+}
+.img_description_box {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 0 0 7px 7px;
+    padding: 10px 20px 10px 10px;
+}
+.img_description_box_heaeding {
+    font-family: "Lexend", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    color: #363436;
+    float: left;
+}
+.visit_link {
+    color: #363436;
+    fill: #363436;
+    font-family: "Inter", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    float: right;
+    margin-top: 10px;
+}
+.visit_link:hover {
+    color: #363436;
+}
+.organiser_name {
+    font-family: "Lexend", Sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #363436;
+}
+.organiser_description {
+    color: #5f5f5f;
+    font-family: "Inter", Sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.funding_btn_box {
+    width: 100%;
+    display: block;
+}
+a.funding_btn {
+    width: 100%;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: "Inter", Sans-serif;
+    font-weight: 500;
+    fill: #ffffff;
+    color: #ffffff;
+    background-color: #363436;
+    border-radius: 6px 6px 6px 6px;
+    font-size: 16px;
+    padding: 10px 30px;
+    transition-duration: 0.2s;
+}
+a.funding_btn:hover {
+    transform: translateY(-3px);
+}
+#ShopCause {
+    width: 100%;
+    overflow: hidden;
+    padding: 108px 10px 96px 10px;
+}
+.shop_head {
+    text-align: center;
+}
+h2.ShopCause_heading {
+    font-family: "Lexend", Sans-serif;
+    font-weight: 600;
+    padding-bottom: 23px;
+}
+p.ShopCause_description {
+    font-family: "Inter", Sans-serif;
+    color: #363436;
+}
+.shop_body {
+    padding-top: 23px;
+}
+ul.shop_item_ul {
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    grid-gap: 25px;
+    margin: 0 0 15px 0;
+    padding: 0 !important;
+}
+li.shop_item_li {
+    position: relative;
+    min-height: 1px;
+    /* padding-right: 15px;
+    padding-left: 15px; */
+    width: 100% !important;
+    float: none !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 calc( 100% / var(--columns));
+    flex: 0 0 calc( 100% / var(--columns));
+    max-width: calc( 100% / var(--columns));
+}
+.item_box {
+    width: 100%;
+    display: flex;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #eee;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 0%);
+    border-radius: 8px 8px 8px 8px;
+    padding-bottom: 24px;
+}
+.item_img_box {
+    width: 44%;
+    float: left;
+}
+.product_details {
+    width: 66%;
+    float: left;
+    padding: 21px 21px 0 21px;
+}
+h2.product_details_heading {
+    font-family: "Lexend", Sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #363436;
+}
+h2.product_details_heading {
+    font-family: "Lexend", Sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    color: #363436;
+}
+span.price {
+    font-family: "Lexend", Sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 26px;
+}
+p.product_details_info {
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    color: #363436;
+}
+a.cart_btn {
+    border-radius: 5px !important;
+    padding: 8px 20px 8px 20px;
+    width: 100%;
+    letter-spacing: 1.05px;
+    font-weight: 700;
+    font-size: 12px;
+    text-decoration: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    color: #363436;
+}
+.browse_more_products_btn_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 54px;
+}
+.browse_more_products_btn {
+    text-align: center;
+    font-family: "Inter", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: lowercase;
+    color: #363436;
+    text-decoration: none;
+    border: 1px solid #3634361a;
+    border-radius: 7px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.browse_more_products_btn:hover {
+    background: #363436;
+    color: #fff;
+}
+#follow {
+    background: #F9FAFB;
+    padding: 47px 63px 45px 63px;
+}
+#follow .owl-theme .owl-nav {
+    display: none;
+}
+#follow .owl-dots {
+    margin-top: 51px;
+}
+
+.follow_heading {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 600;
+    color: #363436;
+    font-family: 'Lexend', sans-serif;
+    padding-top: 59px;
+    padding-bottom: 29px;
+}
+/* responsive */
+@media screen and (min-width: 768px) {
+.video_box iframe.tab{
+    display: block;
+    }
+    .video_box iframe.mob{
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .SinglProject_overlay {
+        background: rgb(8, 4, 4,0.49);
+        padding: 0 20px 0 20px;
+    }
+    #detail {
+        padding: 36px 10px 40px 10px;
+    }
+    .detail_heading {
+    color: #373B3F;
+    font-family: "Lexend", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 44px;
+    text-align: left;
+    padding-bottom: 14px;
+    }
+    .percent_description {
+        color: #54595f;
+        font-family: "Inter", Sans-serif;
+        font-size: 16px;
+        line-height: 1.6em;
+        text-align: left;
+        padding-top: 13px;
+    }
+    .video_box iframe.tab{
+        display: none;
+        }
+    .video_box iframe.mob{
+        display: block;
+        }
+        .video_box iframe {
+            margin-top: -149px;
+            margin-bottom: -154px;
+        }
+        #organiser {
+            background: #F5F0E2;
+            padding: 65px 10px 50px 10px;
+        }
+        .organiser_body_col_one {
+            width: 58.45%;
+            float: left;
+            padding: 15px;
+        }
+        .organiser_body_col_two {
+            width: 41.445%;
+            float: left;
+            padding: 15px;
+        }
+        .middle_align_box {
+            padding-top: 8px;
+        }
+        .organiser_description {
+            color: #5f5f5f;
+            font-family: "Inter", Sans-serif;
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 28px;
+            padding-top: 8px;
+            padding-bottom: 5px;
+            text-align: justify;
+        }
+        #ShopCause {
+            width: 100%;
+            overflow: hidden;
+            padding: 65px 10px 60px 10px;
+        }
+        ul.shop_item_ul {
+            grid-template-columns: repeat(1, 1fr);
+            display: grid;
+            grid-gap: 25px;
+            margin: 0 0 15px 0;
+            padding: 0 !important;
+        }
+        .item_box {
+            width: 100%;
+            display: flex;
+            border-style: solid;
+            border-width: 1px 1px 1px 1px;
+            border-color: #eee;
+            box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 0%);
+            border-radius: 8px 8px 8px 8px;
+            padding-bottom: 0;
+        }
+        p.product_details_info {
+            font-family: "Inter", Sans-serif;
+            font-size: 14px;
+            color: #363436;
+            padding-bottom: 24px;
+        }
+}
+@media screen and (max-width: 425px) {
+    .SinglProject_overlay {
+        background: rgb(8, 4, 4,0.49);
+        padding: 0 0 0 0;
+    }
+    .SinglProject_inner_contant {
+        padding-top: 89px;
+        padding-bottom: 60px;
+    }
+    h4.SinglProject_up_heading {
+        text-align: center;
+        color: #ffffff;
+        font-family: "Inter", Sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+    }
+    #SinglProject h2 {
+        text-align: center;
+        font-size: 42px;
+        font-weight: 700;
+        line-height: 1.4em;
+        color: #ffffff;
+        font-family: 'Lexend', sans-serif;
+        padding-top: 27px;
+        padding-bottom: 14px;
+    }
+    .detail_col_one {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .detail_col_two {
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+    .percent_description {
+        color: #54595f;
+        font-family: "Inter", Sans-serif;
+        font-size: 16px;
+        line-height: 1.6em;
+        text-align: left;
+        padding-top: 29px;
+        padding-bottom: 26px;
+    }
+    .school_info_box {
+        width: 100%;
+        overflow: hidden;
+        padding-bottom: 34px;
+    }
+    .detail_col_two {
+        width: 100%;
+        float: left;
+        padding: 2px;
+    }
+    .donate_btn {
+        width: 47.5%;
+        float: right;
+        background-color: #eea8b2!important;
+        text-align: center;
+        border-radius: 5px;
+        color: #373B3F;
+        cursor: pointer;
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 18px;
+        padding: 5px 5px 4px 5px;
+        text-decoration: none;
+        border: 1px solid #363436;
+        letter-spacing: 1px;
+        transition-duration: 0.2s;
+    }
+    .project_shop_btn_box {
+        width: 100%;
+        padding: 22px 9px 0 9px;
+    }
+    .video_box iframe{
+        margin-top: -110px;
+        margin-bottom: -100px;
+    }
+    .video_box iframe.tab{
+        display: block;
+    }
+        .video_box iframe.mob{
+            display: none;
+    }
+    .organiser_body_col_one {
+        width: 100%;
+        float: left;
+        padding: 15px;
+    }
+    .organiser_body_col_two {
+        width: 100%;
+        float: left;
+        padding: 9px;
+    }
+    .organiser_body_col_two {
+        width: 100%;
+        float: left;
+        padding: 25px 15px 15px 15px;
+    }
+    .item_box {
+        width: 100%;
+        display: block;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: rgba(238, 238, 238, 0);
+        box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 0%);
+        border-radius: 8px 8px 8px 8px;
+        padding-bottom: 0;
+    }
+    .item_img_box {
+        width: 100%;
+        float: left;
+    }
+    .product_details {
+        width: 100%;
+        float: left;
+        padding: 21px 10px 30px 10px;
+        border-left: 1px solid #eee;
+        border-top: 0px;
+        border-right: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+    }
+    img.item_img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+    }
+    #follow {
+        background: #F9FAFB;
+        padding: 0 10px 45px 10px;
+    }
+    .follow_heading {
+        text-align: left;
+        font-size: 29px;
+        font-weight: 600;
+        color: #363436;
+        font-family: 'Lexend', sans-serif;
+        padding-top: 55px;
+        padding-bottom: 53px;
+    }
+}
